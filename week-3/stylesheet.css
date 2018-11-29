@@ -1,0 +1,14 @@
+p {
+    color: blue;
+}
+
+.red-color {
+    font-size: 33px;
+    color: rgb(255, 0, 0);
+}
+
+#yellow-one {
+    color: rgb(red, 0, 0);
+    opacity: 1;
+    font-size: 33px;
+}
