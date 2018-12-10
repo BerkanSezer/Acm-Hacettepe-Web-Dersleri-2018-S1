@@ -1,0 +1,95 @@
+a:link,
+a:visited {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover,
+a:active {
+    background-color: #4CcF50;
+}
+
+/* For remove default values */
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+/* List Styling */
+
+.blue-list {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul {
+    background: #3399ff;
+    padding: 20px;
+}
+
+.blue-list li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+}
+
+
+
+
+
+/* Float */
+
+
+.div1 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.div2 {
+    border: 1px solid red;
+}
+
+.div3 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.div4 {
+    border: 1px solid red;
+    clear: left;
+}
+
+
+
+.ex1 {
+    text-align: right;
+    width: 500px;
+    border: 1px solid red;
+}
+
+.ex2 {
+    text-align: right;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid red;
+}

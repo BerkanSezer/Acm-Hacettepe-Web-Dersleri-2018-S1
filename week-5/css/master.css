@@ -1,0 +1,173 @@
+/* <h2>Max/Min sizes</h2> */
+
+.ex1 {
+  width: 500px;
+  margin: 0 auto;
+  border: 3px solid #73AD21;
+}
+
+.ex2 {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 3px solid #73AD21;
+}
+
+/* CSS Positions */
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+
+
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
+
+div.absolute {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* transform: translateX(-50%); */
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+/* Absolute nesneleri ust uste getirirken de kullanilabilir. z-index isimize yarar*/
+
+
+
+
+
+
+
+/* Overflow */
+div.overflow {
+  background-color: #eee;
+  width: 200px;
+
+  height: 50px;
+  border: 1px dotted black;
+  overflow: scroll;
+}
+
+/* Float */
+img.float {
+  float: right;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+/* Horizontal & Vertical Align */
+
+
+.center {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Combinators */
+div p {
+  background-color: black;
+  color: white;
+}
+
+/* div'in icindeki <p> taglerini secer */
+
+div+p {
+  background-color: yellow;
+}
+
+/* div'den sonra gelen <p> tagi icin (only one) */
+
+
+div~p {
+  background-color: green;
+}
+
+/* div'den sonra gelen <p> tagi icin (only one) [kardesi] */
+
+div~p {
+  background-color: yellow;
+}
+
+/* div'in butun <p> olan kardeslerini secer */
+
+
+
+/* pseudo classes */
+
+/* p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+} */
+
+div:hover p {
+  display: block;
+}
+
+
+
+p:first-child {
+  color: blue;
+}
+
+
+
+/* First Child ex:2 */
+
+/* p i:first-child {
+  color: blue;
+} */
+
+p:first-child i {
+  color: blue;
+}
+
+
+/* Pseudo elements */
+
+/* 
+::first-line  // ilk satiri secer
+::first-letter //ilk harfi secer
+::before // contentte once gosterilecek alan
+::after // contentte sonra gosterilecek alan
+::selection // metin secildiginde gozukecek tasarim
+
+*/
+
+
+/* CSS [attribute] Selector */
+
+
+/* 
+a[target="_blank"] { 
+  background-color: yellow;
+} */
