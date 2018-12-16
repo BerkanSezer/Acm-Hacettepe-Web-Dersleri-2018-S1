@@ -1,0 +1,56 @@
+- İşbu Odevde ogrencilerden beklenen Amerika tarafindan hasar verilmis "assest/sstyle.css"
+dosyasinin tamamlanmasi ve gerekli tasarimin yapilmasidir.
+
+- Odevin son teslim tarihi 31-12-2018 23:59'a kadardır.
+
+- Odevi teslim edenlerin odevleri "Kabul Kriterleri" kapsaminda degerlendirilecek ve 
+en basarili 5(beş) odev oylamaya sunulacaktır. 24 saat surecek olan oylama sonucunda en cok oy alan 2(iki)
+ogrenciye istedikleri tasarim ve renkte yazili tisort hediye edilecektir.
+
+Gerekli olan JavaScript dosyalari aktif bir sekilde calismaktadir.
+Gerekli olan diger CSS dosyalari aktif bir sekilde calismaktadir.
+Projede Bootstap Framework'u etkin ve aktiftir. Istediginiz gibi kullanabilirsiniz.
+Tasarimin aynisini veya benzerini yapmakta ozgursunuz. Yaratici tasarimlar + puana sahip olacaklardir.
+*Tasarimda Mor renk kullanmayaniz*
+Mobil uyumlulugu 70% derecededir. Mobilde hatasiz calisan kodlar + puana sahip olacaklardir.
+Sitenizi Turkce veya Ingilizce olarak gonderebilirsiniz.
+assests/images altindaki gorselleri istediginiz gibi degistirebilirsiniz.
+
+== Kabul Kriterleri ==
+
+    -> Menudeki linklerin aktif bir sekilde calismasi
+    -> Kisisel verilerin entegre edilmesi (Biyografi e-mail vs.) (Telefon no zorunlu degildir)
+    -> PROFILES kisminda hoverlarin calismasi ve renklendirilmesi.
+    -> PORTFOLIO kisminda hoverlarin calismasi ve renklendirilmesi. 
+    -> CLIENTS kisminda 'item'larin duzenlenmesi
+
+== Gonderim Sekli ==
+
+    -> Odevin bitmis hali 
+        ALICI: kberkansezer@gmail.com
+        KONU: ACM Web CSS
+        DOSYA: "isimSoyisim_css.zip" seklinde "Zip" formatiyla sıkıştırılarak 
+    gonderilecektir.
+    -> Uzantisi .zip olmayan ve formati yanlis olan odevler KABUL EDILMEYECEKTIR!
+
+== Dosya Hiyerarşisi ==
+
+    isimSoyisim.zip
+        - assests
+            - css
+                - [DIGER_CSS_DOSYALARI] (Degisiklik yapmayiniz)
+                - style.css
+            - fonts
+                - [FONT_DOSYALARI](Degisiklik yapmayiniz)
+            - images
+                - [IMG_DOSYALARI]
+            - js
+                - [JS_DOSYALARI] (Degisiklik yapmayiniz)
+        - index.html
+        - odev_hakkinda.txt(Bu dosya)
+        
+Bu dosyanin degistirilmesinden ogrenci sorumludur. Orginal dosyaya
+
+https://docs.google.com/document/d/1gKnpEXpLeWP-89XSD5Cf5e1V83G3rqYjXcJGFoOMcao/edit
+
+adresinden edinebilirsiniz.

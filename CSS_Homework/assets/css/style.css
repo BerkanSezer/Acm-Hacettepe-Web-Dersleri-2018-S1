@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #676a81;
+    background: #fff;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    display: inline-block;
+    text-decoration: none;
+    color: #6a708e;
+    font-size: 16px;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: #43485c;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 0;
+    line-height: 1.8;
+    color: #43485c;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+select,
+input,
+textarea,
+button {
+    box-shadow: none;
+    outline: 0 !important;
+}
+
+button {
+    background: transparent;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: opacity 0.3s 0.3s ease;
+    -moz-transition: opacity 0.3s 0.3s ease;
+    -ms-transition: opacity 0.3s 0.3s ease;
+    -o-transition: opacity 0.3s 0.3s ease;
+    transition: opacity 0.3s 0.3s ease;
+    opacity: 0;
+}
+
+.fix {
+    position: relative;
+    clear: both;
+}
+
+.top-area {}
+
+nav.navbar.bootsnav.no-background {}
+
+nav.navbar.bootsnav {}
+
+.navbar-header a.navbar-brand:focus {}
+
+nav.navbar.bootsnav ul.nav>li>a {}
+
+nav.navbar.bootsnav ul.nav>li>a {}
+
+nav.navbar.bootsnav ul.nav>li.active>a {}
+
+nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {}
+
+nav.navbar.bootsnav ul.nav>li.dropdown span {}
+
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a {}
+
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li.active>a {}
+
+.menu-ui-design {}
+
+.menu-ui-design::-webkit-scrollbar {}
+
+.menu-ui-design::-webkit-scrollbar-track {}
+
+.menu-ui-design::-webkit-scrollbar-thumb {}
+
+nav.navbar.bootsnav .navbar-toggle {}
+
+nav.navbar.bootsnav .navbar-toggle i {}
+
+.welcome-hero {}
+
+.welcome-hero:before {}
+
+.header-text h2 {}
+
+.header-text h2 span {}
+
+.header-text p {}
+
+.header-text a {}
+
+.header-text a:hover {}
+
+.about {}
+
+.about-content {}
+
+.single-about-txt h3 {}
+
+.single-about-txt p {}
+
+.single-about-add-info {}
+
+.single-about-add-info h3 {}
+
+.single-about-add-info p {}
+
+.single-about-img {}
+
+.single-about-img:before {}
+
+.single-about-img img {}
+
+.about-list-icon {}
+
+.about-list-icon ul {}
+
+.about-list-icon ul li a {}
+
+.about-list-icon ul li a {}
+
+.about-list-icon ul li a i {}
+
+.education {}
+
+.education-horizontal-timeline {}
+
+.education-horizontal-timeline .col-sm-4 {}
+
+.single-horizontal-timeline .experience-time h3 {}
+
+.single-horizontal-timeline .experience-time h3 span {}
+
+.single-horizontal-timeline .timeline-content h5 {}
+
+.single-horizontal-timeline p {}
+
+.timeline-horizontal-border {}
+
+.timeline-horizontal-border i {}
+
+span.single-timeline-horizontal {}
+
+span.single-timeline-horizontal.spacial-horizontal-line {}
+
+.skill-content {}
+
+.single-skill-content {}
+
+.section-heading h2 {}
+
+.single-progress-txt {}
+
+.single-progress-txt h3 {}
+
+.barWrapper {}
+
+.progress {}
+
+.progress-bar {}
+
+.tooltip {}
+
+.tooltip>.tooltip-inner {}
+
+.popOver+.tooltip>.tooltip-arrow {}
+
+.experience {}
+
+.experience-content {}
+
+.single-timeline-box {}
+
+.experience-time {}
+
+.experience-time h2 {}
+
+.experience-time h3 {}
+
+.main-timeline {}
+
+.main-timeline:before {}
+
+.main-timeline .timeline {}
+
+.experience-time span>i {}
+
+.timeline-content h4.title {}
+
+.timeline-content h5 {}
+
+.main-timeline .description {}
+
+.main-timeline .timeline-content.right {}
+
+.timeline-single-before:before {}
+
+.experience-time-responsive {}
+
+.profiles {}
+
+.profiles-content {}
+
+.profiles-content .col-sm-3 {}
+
+.profile-txt {}
+
+.single-profile {}
+
+.profile-icon-name {}
+
+.single-profile.profile-no-border {}
+
+.profile-border {}
+
+.single-profile-overlay {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: #d92cf9;
+    background: -moz-linear-gradient(left, #d92cf9 0%, #b636ff 100%);
+    background: -webkit-linear-gradient(left, #d92cf9 0%, #b636ff 100%);
+    background: linear-gradient(to right, #d92cf9 0%, #b636ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d92cf9', endColorstr='#b636ff', GradientType=1);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.single-profile:hover .single-profile-overlay {}
+
+.single-profile:hover .profile-txt a>i {}
+
+.single-profile:hover .profile-border {}
+
+.portfolio {}
+
+.portfolio-content {}
+
+.isotope:after {}
+
+.isotope .item {}
+
+.isotope .item img {}
+
+.isotope .item:hover img {}
+
+.isotope-overlay {}
+
+.isotope-overlay a {}
+
+.isotope .item:hover .isotope-overlay {}
+
+.clients {}
+
+.clients-area {}
+
+.clients-area .item {}
+
+.clients .clients-area .owl-carousel .owl-item img {}
+
+.contact {}
+
+.single-contact-box {}
+
+.contact-form .form-group {}
+
+.contact-form .form-control {}
+
+.contact-form .single-contact-btn {}
+
+.contact-form .single-contact-btn .contact-btn:focus {}
+
+.single-contact-btn:hover {}
+
+.contact-add-head h3 {}
+
+.contact-add-head p {}
+
+.contact-add-info {}
+
+.single-contact-add-info h3 {}
+
+.single-contact-add-info p {}
+
+.single-contact-add-info {}
+
+.hm-foot-icon ul li {}
+
+.hm-foot-icon ul li>a {}
+
+.hm-foot-icon ul li>a:hover {}
+
+.hm-footer-copyright p {}
+
+.hm-footer-copyright p a {}
+
+#scroll-Top .return-to-top {}
+
+#scroll-Top .return-to-top:hover {}
+
+#scroll-Top .return-to-top i {
+    position: relative;
+    bottom: 0;
+
+}
+
+#scroll-Top .return-to-top i {
+    position: relative;
+    animation-name: example;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    0% {
+        bottom: 0px;
+    }
+
+    100% {
+        bottom: 7px;
+    }
+}
